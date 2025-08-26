@@ -1,3 +1,7 @@
+# hangman_game.py
+# Author: Rutuja Wankhede
+# Description: Hangman Game for task 1
+
 import random
 import Hangman_stages
 import word_file
@@ -38,3 +42,4 @@ while not game_over:
         game_over = True
         print("You win!!")
     print(Hangman_stages.stages[lives])
+
